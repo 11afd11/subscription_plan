@@ -143,6 +143,8 @@ button:hover {
     color: rgb(14, 94, 62);
     
 }
+
+
 .foot-container {
     min-height: 30vh;
     display:flex;
@@ -175,4 +177,46 @@ button:hover {
     color: rgb(0, 76, 45);
     font-size: 1.5rem;
     text-decoration: underline;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        display:flex;
+        padding:20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .logobox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:30px;
+    }
+
+    .foot-container {
+        min-height: 20vh;
+        display:flex;
+        justify-content:space-between;
+        background-color: rgb(59, 154, 100);
+        font-size: 1rem;
+        font-family: Roboto;
+    }
+    .right {
+        display:flex;
+        justify-content:center;
+        gap: 1rem;
+        padding-inline: 1rem;
+    }
+    .left {
+        display:flex;
+        justify-content:center;
+        padding-inline: 1rem;
+        gap: 1rem;
+    }
+
+
 }
