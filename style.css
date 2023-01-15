@@ -10,9 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(237, 253, 237);
+}
+
 a {
     text-decoration: none;
-    transition: all 500ms ease-in-out;
+   
 }
 
 a:hover {
@@ -25,6 +29,11 @@ a:visited {
 
 li{
     list-style: none;
+}
+
+ul {
+    line-height: 50px;
+    
 }
 
 .navbar {
@@ -61,7 +70,7 @@ li{
 }
 button {
     padding: 7px 10px 7px 10px;
-    background-color: white;
+    background-color: rgb(230, 255, 230);
     border: solid rgb(21, 42, 35) 1px;
     border-radius: 8px;
     transition: all 150ms ease-in-out;
@@ -87,13 +96,15 @@ button:hover {
     text-align: center;
     font-size: 1.75rem;
     font-family: Barlow;
-    color:rgba(0, 0, 0, 0.789)
+    color:rgba(0, 0, 0, 0.789);
+    padding: 20px;
 }
 #greyed-out {
     text-align: center;
     font-size: 2rem;
     font-family: Barlow;
-    color:rgba(92, 90, 90, 0.397)
+    color:rgba(92, 90, 90, 0.397);
+    padding:10px;
 }
 
 .card-container {
@@ -105,4 +116,28 @@ button:hover {
 }
 .cards {
     padding:50px;
+    border: 2px solid;
+    margin:20px;
+    border-radius: 50px;
+    transition: all 200ms ease-in-out;
+    
+
+}
+
+.cards:hover {
+    background-color: rgb(246, 255, 246);
+    box-shadow: 5px 5px 50px;
+}
+
+.card-title {
+    padding:20px;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    color: rgb(32, 204, 135);
+    
+}
+.card-list {
+    font-family: Roboto;
+    color: rgb(14, 94, 62);
+    
 }
