@@ -116,7 +116,7 @@ button:hover {
 }
 .cards {
     padding:50px;
-    border: 2px solid;
+    border: 1px solid;
     margin:20px;
     border-radius: 50px;
     transition: all 200ms ease-in-out;
@@ -140,4 +140,36 @@ button:hover {
     font-family: Roboto;
     color: rgb(14, 94, 62);
     
+}
+.foot-container {
+    min-height: 30vh;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    padding-top: 20px;
+    background-color: rgb(59, 154, 100);
+    font-size: 1rem;
+    font-family: Roboto;
+    
+
+}
+.right {
+    align-items: center;
+    display:flex;
+    justify-content:end;
+    gap: 7rem;
+    padding-inline: 3rem;
+    
+}
+.left {
+    display:flex;
+    justify-content:end;
+    padding-inline: 3rem;
+}
+.space {
+    height:10vh;
+}
+.list-heading {
+    color: rgb(14, 94, 62);
+    font-size: 1.5rem;
 }
