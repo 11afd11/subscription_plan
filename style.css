@@ -217,6 +217,12 @@ button:hover {
         padding-inline: 1rem;
         gap: 1rem;
     }
+    .list-heading {
+        color: rgb(0, 76, 45);
+        font-size: 1rem;
+        text-decoration: underline;
+    
+    }
 
 
 }
