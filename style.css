@@ -74,6 +74,7 @@ button {
     border: solid rgb(21, 42, 35) 1px;
     border-radius: 8px;
     transition: all 150ms ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -127,6 +128,7 @@ button:hover {
 .cards:hover {
     background-color: rgb(246, 255, 246);
     box-shadow: 5px 5px 50px;
+    cursor: pointer;
 }
 
 .card-title {
@@ -170,6 +172,7 @@ button:hover {
     height:10vh;
 }
 .list-heading {
-    color: rgb(14, 94, 62);
+    color: rgb(0, 76, 45);
     font-size: 1.5rem;
+    text-decoration: underline;
 }
